@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+/* Base styles */
+@layer base {
+  html,
+  body {
+    @apply bg-black text-white antialiased;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* Helpers */
+@layer utilities {
+  .heading {
+    @apply tracking-wide uppercase;
+  }
+
+  .btn {
+    /* NO bg-brand / brand-dark here */
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded-full 
+           bg-white text-black hover:bg-neutral-200 
+           transition-all duration-200 shadow;
+  }
+
+  .frame {
+    @apply rounded-2xl overflow-hidden shadow;
+  }
+
+  .hover-zoom {
+    @apply transition-transform duration-300 hover:scale-[1.03];
+  }
+
+  .muted {
+    @apply text-white/70;
+  }
+}
