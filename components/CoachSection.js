@@ -6,7 +6,7 @@ export default function CoachSection({ data }) {
   const { imageSrc, imageAlt, title, paragraphs = [] } = data;
 
   return (
-    <section className="bg-black text-white">
+    <section id="coachsection" className="bg-black text-white">
       {/* max width similar to original; full-width on big screens */}
       <div className="mx-auto max-w-[1440px] flex flex-col lg:flex-row">
         {/* LEFT: LARGE COACH IMAGE */}

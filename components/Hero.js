@@ -168,7 +168,10 @@ export default function Hero() {
       : 'translate-x-0 sm:translate-x-[40%]'; // Right on desktop
 
   return (
-    <section className="relative w-full h-[85vh] overflow-hidden bg-black flex items-center justify-center">
+    <section
+      id="home"
+      className="relative w-full h-[85vh] overflow-hidden bg-black flex items-center justify-center"
+    >
       {/* 1) Placeholder hero image (full cover) */}
       <img
         src="/images/hero-placeholder.png"

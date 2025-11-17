@@ -1,5 +1,5 @@
 const links = [
-  { label: 'HOME', href: '#top', active: true },
+  { label: 'HOME', href: '#top' },
   { label: 'WHO WE ARE', href: '#who-we-are' },
   { label: 'HOW WE TRAIN', href: '#how-we-train' },
   // { label: 'ATHLETES', href: '#athletes' },

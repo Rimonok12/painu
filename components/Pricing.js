@@ -134,14 +134,16 @@ export default function Pricing({ data }) {
 
               {/* 🔴 Pay Now button */}
               {hasPricing && (
+                // bg-gradient-to-r from-red-500 via-red-600 to-red-700
                 <button
                   onClick={() => toggleQR(i)}
                   className="
                     mt-5 w-[100px] py-3 
                     rounded-full 
-                    bg-gradient-to-r from-red-500 via-red-600 to-red-700
+                    
                     text-sm font-semibold tracking-wide
                     shadow-[0_10px_25px_rgba(248,113,113,0.35)]
+                    bg-red-600
                     transition-all duration-200
                     hover:shadow-[0_14px_32px_rgba(248,113,113,0.55)]
                     hover:-translate-y-0.5
