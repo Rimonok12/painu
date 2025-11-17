@@ -9,6 +9,11 @@ const montserrat = Montserrat({
 export const metadata = {
   title: 'painu.info',
   description: 'Official site',
+  icons: {
+    icon: '/logo.jpeg', // or favicon.ico
+    shortcut: '/logo.jpeg',
+    apple: '/logo.jpeg',
+  },
 };
 
 export default function RootLayout({ children }) {

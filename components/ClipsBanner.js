@@ -7,7 +7,7 @@ export default function ClipsBanner() {
     <section className="relative w-full h-[85vh] overflow-hidden bg-black">
       {/* Placeholder image (loads instantly) */}
       <img
-        src="/images/hero-placeholder.png"
+        src="/images/one.webp"
         alt="Pain University Training"
         className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700"
       />
