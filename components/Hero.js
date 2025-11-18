@@ -173,13 +173,13 @@ export default function Hero() {
       className="relative w-full h-[85vh] overflow-hidden bg-black flex items-center justify-center"
     >
       {/* 1) Placeholder hero image (full cover) */}
-      <img
-        src="/images/hero-placeholder.png"
+      {/* <img
+        src="/images/hero-placeholde.png"
         alt="Pain University Training"
         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
           ready ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
-      />
+      /> */}
 
       {/* 2) Slider wrapper (fades in after placeholder) */}
       <div
