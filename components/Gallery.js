@@ -30,7 +30,7 @@ export default function Gallery({ items = [] }) {
     <section id="gallery" className="mx-auto max-w-6xl px-4 py-16">
       {/* Header */}
       <div className="flex items-end justify-between mb-6">
-        <h2 className="heading text-xl sm:text-2xl">Gallery</h2>
+        <h2 className="heading text-xl sm:text-2xl">pain U athletes</h2>
       </div>
 
       {/* Masonry layout */}

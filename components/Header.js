@@ -44,7 +44,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 
 const links = [
   { label: 'Home', href: '#home' },
-  { label: 'Gallery', href: '#gallery' },
+  { label: 'pain U athletes', href: '#gallery' },
   { label: 'Pricing', href: '#pricing' },
   { label: 'Contact', href: '#coachsection' },
 ];
