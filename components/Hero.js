@@ -130,7 +130,7 @@ import { useEffect, useState } from 'react';
 export default function Hero() {
   // 15 gallery images
   const images = Array.from(
-    { length: 15 },
+    { length: 10 },
     (_, i) => `/images/gallery/${i + 1}.jpeg`
   );
 
