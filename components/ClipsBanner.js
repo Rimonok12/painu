@@ -20,9 +20,9 @@ export default function ClipsBanner() {
         <div className="mx-auto max-w-6xl w-full px-4 pb-10">
           <p className="heading text-xs tracking-[0.25em] mb-3">CLIPS</p>
           <h1 className="text-3xl sm:text-4xl font-semibold">Featured Clips</h1>
-          <p className="mt-3 text-sm text-white/80 max-w-xl">
+          {/* <p className="mt-3 text-sm text-white/80 max-w-xl">
             Official clips and media — recreated from the original site.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>
