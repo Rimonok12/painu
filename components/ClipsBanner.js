@@ -5,7 +5,6 @@ import Image from 'next/image';
 export default function ClipsBanner() {
   return (
     <section className="relative w-full h-[85vh] overflow-hidden bg-black">
-      {/* Placeholder image (loads instantly) */}
       <img
         src="/images/n.jpeg"
         alt="Pain University Training"
